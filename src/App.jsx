@@ -138,10 +138,10 @@ function PackingList({ items, onDeleteItem, onToggleItem, onClearList }) {
             <option value="description">Sort by description</option>
             <option value="packed">Sort by packed status</option>
           </select>
+
+          <button onClick={onClearList}>Clear List</button>
         </div>
       )}
-
-      <button onClick={onClearList}>Clear List</button>
     </div>
   );
 }
